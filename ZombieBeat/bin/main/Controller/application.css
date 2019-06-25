@@ -1,0 +1,134 @@
+/* JavaFX CSS - Leave this comment until you have at least create one rule which uses -fx-Property */
+.icon-button{
+  -fx-background-color: transparent;
+  -fx-background-repeat: no-repeat no-repeat;
+  -fx-background-size: 24 24;
+  -fx-background-position:center;
+}
+.icon-button1{
+  -fx-min-width: 42;
+  -fx-min-height: 42;
+  -fx-background-color: transparent;
+  -fx-background-repeat: no-repeat no-repeat;
+  -fx-background-size: 24 24;
+  -fx-background-position:center;
+}
+#backView-button {
+  -fx-background-image: url("backButton.png");
+  -fx-background-size: 38 38;
+}
+#play-button {
+  -fx-background-image: url("playButton.png");
+  -fx-background-size: 38 38;
+}
+#play-button:hover {
+  -fx-background-image: url("playButton.png");
+  -fx-background-size: 42 42;
+}
+#next-button {
+  -fx-background-image: url("next.png");
+  -fx-background-size: 16 16;
+}
+
+#cover-button{
+	
+}
+#next-button:hover {
+  -fx-background-image: url("next.png");
+  -fx-background-size: 18 18;
+}
+#back-button {
+  -fx-background-image: url("back.png");
+  -fx-background-size: 16 16;
+}
+#back-button:hover {
+  -fx-background-image: url("back.png");
+  -fx-background-size: 18 18;
+}
+#loop-Togglebutton {
+  -fx-background-image: url("repeat.png");
+  -fx-background-size: 17 17;
+}
+#loop-Togglebutton:hover {
+  -fx-background-image: url("repeat.png");
+  -fx-background-size: 19 19;
+}
+#loopOn-Togglebutton {
+  -fx-background-image: url("repeaton.png");
+  -fx-background-size: 17 17;
+}
+#loopOn-Togglebutton:hover {
+  -fx-background-image: url("repeaton.png");
+  -fx-background-size: 19 19;
+}
+#shuffle-Togglebutton {
+  -fx-background-image: url("shuffle.png");
+  -fx-background-size: 18 18;
+}
+#shuffle-Togglebutton:hover {
+  -fx-background-image: url("shuffle.png");
+  -fx-background-size: 20 20;
+}
+#shuffleOn-Togglebutton {
+  -fx-background-image: url("shuffleon.png");
+  -fx-background-size: 18 18;
+}
+#shuffleOn-Togglebutton:hover {
+  -fx-background-image: url("shuffleon.png");
+  -fx-background-size: 20 20;
+}
+#mute-Togglebutton {
+  -fx-background-image: url("mute.png");
+  -fx-background-size: 24 24;
+}
+#mute-Togglebutton:hover {
+  -fx-background-image: url("mute.png");
+  -fx-background-size: 26 26;
+}
+#speaker-Togglebutton {
+  -fx-background-image: url("speaker.png");
+}
+#pause-Togglebutton {
+  -fx-background-image: url("pause.png");
+  -fx-background-size: 38 38;
+}
+#pause-Togglebutton:hover {
+  -fx-background-image: url("pause.png");
+  -fx-background-size: 42 42;
+}
+#volLaut {
+  -fx-background-image: url("sleise.png");
+  -fx-background-size: 24 24;
+}
+#volLaut:hover {
+  -fx-background-image: url("sleise.png");
+  -fx-background-size: 26 26;
+}
+#playlist-button {
+  -fx-background-image: url("playlist.png");
+  -fx-background-size: 28 28;
+}
+#playlist-button:hover {
+  -fx-background-image: url("playlist.png");
+  -fx-background-size: 30 30;
+}
+.background{
+	-fx-background-image: url("Hintergrund1.jpg");
+	 -fx-background-size: 900 900;
+}
+
+.list-cell {
+    -fx-background-color: transparent;
+    -fx-text-fill: #ecebe8;
+    -fx-font-size: 14.5;
+    -fx-font-family: "Verdana";
+}
+.list-cell:hover {
+	 -fx-text-fill: white;
+}
+.list-cell:hover {
+    -fx-font-size: 15;
+}
+.list-view {
+    -fx-background-color: transparent;
+}

@@ -1,0 +1,279 @@
+.titel {
+	-fx-font-family: "Scare Arms";
+    -fx-text-fill: white;
+    -fx-font-size: 175;
+}
+
+.settings {
+	-fx-font-family: "Scare Arms";
+    -fx-text-fill: white;
+    -fx-font-size: 75;
+}
+
+.gameover {
+	-fx-font-family: "Scare Arms";
+    -fx-text-fill: white;
+    -fx-font-size: 175;
+}
+
+.win {
+	-fx-font-family: "Scare Arms";
+    -fx-text-fill: white;
+    -fx-font-size: 75;
+}
+
+#setlab {
+	-fx-font-family: "Scare Arms";
+    -fx-text-fill: white;
+    -fx-font-size: 50;
+}
+
+#descr {
+	-fx-font-family: "Scare Arms";
+    -fx-text-fill: white;
+    -fx-font-size: 30;
+}
+
+#import {
+	-fx-font-family: "Scare Arms";
+    -fx-text-fill: white;
+    -fx-font-size: 35;
+}
+
+.button {
+	-fx-padding: 0;
+	-fx-font-family: "Scare Arms";
+	-fx-text-fill: white;
+	-fx-font-size: 32;
+	-fx-background-color: transparent;
+}
+
+.button:hover {
+	-fx-padding: 0;
+	-fx-font-size: 32.5;
+}
+
+.pausebutton {
+	-fx-padding: 0;
+	-fx-font-family: "Scare Arms";
+	-fx-text-fill: white;
+	-fx-font-size: 52;
+	-fx-background-color: transparent;
+}
+
+.pausebutton:hover {
+	-fx-padding: 0;
+	-fx-font-size: 53;
+}
+
+.nochmal {
+	-fx-padding: 10;
+	-fx-font-family: "Scare Arms";
+	-fx-text-fill: white;
+	-fx-font-size: 90;
+	-fx-background-color: transparent;
+}
+
+.nochmal:hover {
+	-fx-padding: 10;
+	-fx-font-size: 90.5;
+}
+
+.menue {
+	-fx-padding: 0;
+	-fx-font-family: "Scare Arms";
+	-fx-text-fill: white;
+	-fx-font-size: 32;
+	-fx-background-color: transparent;
+}
+
+.menue:hover {
+	-fx-padding: 0;
+	-fx-font-size: 32.5;
+}
+
+
+.list-cell .label{
+	-fx-font-family: "Scare Arms";
+	-fx-text-fill: white;
+	-fx-font-size: 20;
+}
+
+.list-cell:hover {
+	-fx-font-size: 20.2;
+}
+
+.list-view .scroll-bar:vertical {
+    -fx-scale-x: 0;
+}
+
+.list-view .scroll-bar:horizontal .increment-arrow,
+.list-view .scroll-bar:horizontal .decrement-arrow,
+.list-view .scroll-bar:horizontal .increment-button,
+.list-view .scroll-bar:horizontal .decrement-button {
+    -fx-padding:0;
+}
+
+.rbutton {
+  -fx-background-image: url("../../Images/rbutton.png");
+  -fx-background-size: 32 32;
+  -fx-background-repeat: no-repeat;
+  -fx-background-position: center;
+  -fx-min-width: 60;
+  -fx-min-height: 60;
+}
+
+.rbutton:hover {
+  -fx-background-size: 34 34;
+  -fx-background-repeat: no-repeat;
+  -fx-background-position: center;
+  -fx-min-width: 60;
+  -fx-min-height: 60;
+}
+
+.lbutton {
+  -fx-background-image: url("../../Images/lbutton.png");
+  -fx-background-size: 32 32;
+  -fx-background-repeat: no-repeat;
+  -fx-background-position: center;
+  -fx-min-width: 60;
+  -fx-min-height: 60;
+}
+
+.lbutton:hover {
+  -fx-background-size: 34 34;
+  -fx-background-repeat: no-repeat;
+  -fx-background-position: center;
+  -fx-min-width: 60;
+  -fx-min-height: 60;
+}
+
+#infobox {
+	-fx-font-family: "Scare Arms";
+    -fx-text-fill: white;
+    -fx-font-size: 30;
+}
+
+#tmove {
+  -fx-background-image: url("../../Images/tmove.png");
+  -fx-background-size: 46 46;
+  -fx-background-repeat: no-repeat;
+  -fx-background-position: center;
+  -fx-min-width: 60;
+  -fx-min-height: 60;
+}
+
+#lmove {
+  -fx-background-image: url("../../Images/lmove.png");
+  -fx-background-size: 46 46;
+  -fx-background-repeat: no-repeat;
+  -fx-background-position: center;
+  -fx-min-width: 60;
+  -fx-min-height: 60;
+}
+
+#dmove {
+  -fx-background-image: url("../../Images/dmove.png");
+  -fx-background-size: 46 46;
+  -fx-background-repeat: no-repeat;
+  -fx-background-position: center;
+  -fx-min-width: 60;
+  -fx-min-height: 60;
+}
+
+#rmove {
+  -fx-background-image: url("../../Images/rmove.png");
+  -fx-background-size: 46 46;
+  -fx-background-repeat: no-repeat;
+  -fx-background-position: center;
+  -fx-min-width: 60;
+  -fx-min-height: 60;
+}
+
+#shoot {
+	-fx-background-color: transparent;
+}
+
+#tmove:hover {
+  -fx-background-image: url("../../Images/tmove.png");
+  -fx-background-size: 48 48;
+  -fx-background-repeat: no-repeat;
+  -fx-background-position: center;
+  -fx-min-width: 60;
+  -fx-min-height: 60;
+}
+
+#lmove:hover {
+  -fx-background-image: url("../../Images/lmove.png");
+  -fx-background-size: 48 48;
+  -fx-background-repeat: no-repeat;
+  -fx-background-position: center;
+  -fx-min-width: 60;
+  -fx-min-height: 60;
+}
+
+#dmove:hover {
+  -fx-background-image: url("../../Images/dmove.png");
+  -fx-background-size: 48 48;
+  -fx-background-repeat: no-repeat;
+  -fx-background-position: center;
+  -fx-min-width: 60;
+  -fx-min-height: 60;
+}
+
+#rmove:hover {
+  -fx-background-image: url("../../Images/rmove.png");
+  -fx-background-size: 48 48;
+  -fx-background-repeat: no-repeat;
+  -fx-background-position: center;
+  -fx-min-width: 60;
+  -fx-min-height: 60;
+}
+
+#shootc {
+	-fx-text-fill: red;
+}
+
+#tmovec {
+  -fx-background-image: url("../../Images/tmovec.png");
+  -fx-background-size: 48 48;
+  -fx-background-repeat: no-repeat;
+  -fx-background-position: center;
+  -fx-min-width: 60;
+  -fx-min-height: 60;
+}
+
+#lmovec {
+  -fx-background-image: url("../../Images/lmovec.png");
+  -fx-background-size: 48 48;
+  -fx-background-repeat: no-repeat;
+  -fx-background-position: center;
+  -fx-min-width: 60;
+  -fx-min-height: 60;
+}
+
+#dmovec {
+  -fx-background-image: url("../../Images/dmovec.png");
+  -fx-background-size: 48 48;
+  -fx-background-repeat: no-repeat;
+  -fx-background-position: center;
+  -fx-min-width: 60;
+  -fx-min-height: 60;
+}
+
+#rmovec {
+  -fx-background-image: url("../../Images/rmovec.png");
+  -fx-background-size: 48 48;
+  -fx-background-repeat: no-repeat;
+  -fx-background-position: center;
+  -fx-min-width: 60;
+  -fx-min-height: 60;
+}
+
+#settingslider {
+    -fx-control-inner-background: white; 
+}
+
+#settingslider .thumb {
+	-fx-background-color: white;
+}
